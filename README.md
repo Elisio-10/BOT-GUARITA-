@@ -31,3 +31,24 @@ Siga os passos abaixo para rodar o projeto em sua máquina ou VPS:
    ```bash
    git clone https://github.com/SEU_USUARIO/whatsapp-manager-bot.git
    cd whatsapp-manager-bot
+npm install
+npm start
+
+
+Um QR Code será gerado no seu terminal.
+Abra o WhatsApp no seu celular > Aparelhos Conectados > Conectar um Aparelho.
+Escaneie o código e pronto!
+
+
+📈 Estrutura Startup
+Este repositório foi estruturado pensando em escalabilidade:
+Modularização: Comandos fáceis de editar e expandir.
+Conexão Estável: Sistema de reconexão automática em caso de queda de rede.
+Baixo Consumo: Projetado para rodar em instâncias leves (VPS básica).
+🛡️ Segurança
+A sessão do WhatsApp é criptografada e salva localmente na pasta auth_info_baileys. Nunca compartilhe esta pasta publicamente, pois ela contém as chaves de acesso ao seu WhatsApp.
+
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
+
+Desenvolvido com 💙 para fins de automação inteligente.
