@@ -1,0 +1,2 @@
+# BOT-GUARITA-
+ADMINISTRADOR DO GRUPO BOT#🤖 WhatsApp Group Manager Bot 
