@@ -16,6 +16,48 @@ O bot responde a comandos de administradores para facilitar a gestão de comunid
 | `.link` | Gera e envia o link de convite do grupo atual. |
 | `.informações` | Exibe estatísticas do grupo (membros, data de criação, etc). |
 
+🤖 Comandos do Bot
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 GRUPO
+🔓 .abrir — Abre o grupo para todos
+🔒 .fechar — Fecha o grupo (só admins)
+📢 .mencionar — Menciona todos os membros
+📋 .listar — Lista membros e admins
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+⏰ ALARMES AUTOMÁTICOS
+.alarme — Ver alarmes configurados
+.alarme abrir HH:MM — Abre o grupo diariamente
+.alarme fechar HH:MM — Fecha o grupo diariamente
+.alarme cancelar — Remove todos os alarmes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+👋 BOAS-VINDAS
+.boasvindas on / off
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🎫 COMPROVATIVOS
+.comprovativo on / off
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🤖 ATENDIMENTO IA
+.ausente on / off
+
+📋 Registo de Pagamentos (3 total)
+✅ Correctos: 2 | ⚠️ Valor errado: 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ 01. João Silva | 500 MT | Ref: EM123456
+      🕐 17/04/2026, 14:32 via E-mola
+
+✅ 02. Maria Costa | 500 MT | Ref: MP789012
+      🕐 17/04/2026, 14:45 via M-Pesa
+
+⚠️ 03. Pedro Nunes | 250 MT | Ref: EM345678
+      🕐 17/04/2026, 15:01 via E-mola
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ## 🛠️ Tecnologias Utilizadas
 
 - [Node.js](https://nodejs.org/) - Ambiente de execução.
